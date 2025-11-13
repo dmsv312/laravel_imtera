@@ -10,6 +10,7 @@ Thumbs.db
 /backend/storage/*.key
 /backend/.env
 /backend/.env.*
+!/backend/.env.example
 
 # Node
 /node_modules/
@@ -17,6 +18,7 @@ Thumbs.db
 /frontend/dist/
 /frontend/.env
 /frontend/.env.*
+!/frontend/.env.example
 
 # Vite cache
 frontend/.vite/
@@ -29,5 +31,7 @@ frontend/.vite/
 /docker/
 *.log
 .env
+.env.*
+!.env.example
 .phpunit.result.cache
 /backend/phpunit.result.cache
